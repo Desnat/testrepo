@@ -1,0 +1,157 @@
+Game design
+
+Part 1: Conception
+
+Direction créative--> touche ce qui touche au base du jeu par exemple : théme, régles, but du jeu... Métier = creative director
+|
+|
+définir et rationaliser l'éxperience ciblée
+
+fantaisie	 genre      traitement
+
+
+Fantaisie : 
+	settings = période historique, lieu, fiction vs non-fiction
+	Rôle = identité, objectifs, place dans ce monde
+
+	Archétypes, rôle et relation + appearance, personalité, situation = contrat implicite avec les joueurs.euses
+
+Genre : 
+	type de jeu;
+	bcp de genre mais pas se limiter
+
+traitement :
+	 registre et style= rythme, structure narrative...
+	ton & mood = aspect visuel & audio, écriture...
+	message = sujets, symboles...
+
+
+Héritage
+
+fantaisie + genre + traitement + mécaniques
+
+faut doser --> analyser les succès, savoir où placer ses efforts (études conso, review journaliste, playtests)
+
+Les piliers de l'expérience:
+
+aspects clés du jeu + intentions --> 
+	dirve l'expérience joueur.euse
+	drive les choix de prod
+	permet l'alignement
+
+Constuire les piliers=
+1. combiner ( explorer liens fort entre fantaisie, genre et traitement
+2. trier ( dégager les élements intéressant que vous voulez utiliser
+3. twister & décliner ( itérer sur ces éléments pour trouver uen perspective original et former votre usp (élément differenciel de votre jeu))
+4. affiner ( tester les piliers en imaginant précisement l'expérience finale et en vous alignant sur leurs significations)
+
+Gameplay loop
+
+	objective = donné par les developeurs, induit par le contexte, intrinsèque ( sandbox)
+	challenge = basé sur les mécaniques, fait intervenir les compétences des joueurs.euses, encourage l'autonomie et le problem-solving, doit être clairement identifiable
+	reward = célébration directe de la réussite, pas forcément de la performance, proportionnelle au challenge, peut prendre multiple formes 
+
+Toy 
+
+	mécanique coeur de votre jeu
+	sans ojectifs ou décisions
+	pas d'échec ou de réussite
+	repose sur les piliers
+
+
+modèle de Bartle
+
+	socializers ( collaborer avec les autres)
+	killers ( agir contre les autres)
+	eplorer ( intéragir avec le monde)
+	achivers ( joue pour les perfomances, le score)
+
+les désirs basique de Reiss
+
+la théorie de self-determination de Skinner( PENS)
+
+	autonomie
+	compétence
+	relation
+
+Camera laziness = QUAND la camera se déplace
+
+Controls
+	
+	simples
+	intuitifs
+	précis
+	confortables
+
+Systèmes = définissent les ingrédients du jeu et leurs interactions
+
+	1. piliers & verbes ( les systémes doivent être créés en fonction des piliers de l'expérience et définir les actions possibles)
+	2. cohérence ( les comportements doivent garder la même logique tout au long du jeu)
+	3. simplification (un système peut être simple mais apporter de la profondeur, ne pas complexifier inutilement)
+	4. réutilisation ( éviter les one-shots)
+
+Signs & feedback
+
+	jeu ---> signe --> joueur
+	jeu <-- action<-- joueur
+
+	jeu <-- action <-- joueur
+	jeu--> feedback --> joueur
+
+	jeu ---> signe --> joueur
+	jeu <-- action<-- joueur
+	jeu --> feedback --> joueur
+
+
+Flow & Pacing
+
+	Expérience et déroulement souhaité des boucles
+
+		équilibre ( équilibrer la difficulté et les systèmes, assurer une progression maîtrisé)
+		rythme ( ajuster le pacing( tension, contrate, varitation,...)
+		confort (focaliser le challenge sur ce qui compte, et maintenir le confort de jeu)
+
+	Pacing 
+
+		rythme générale
+		se base sur les boucles micro
+		beats d'action, de pause, les transitions,...
+
+
+Game Design Part 2
+
+	Carte d'un jeu 
+		3C, Logic, economy, progression, world, options, UGC, player guidance, player profile, user interface, accessibility, online, live, loyalty, difficulty, modes
+
+	Pre Prod = traduire la vision créative en fonctionnalités et préparer la production
+		feature= unité de production, un élément de l'experience et/ou systéme du jeu pouvant être quantifié
+		feature list = liste des fontionnalités du jeu d'un point de vue macro et (potentiellement) micro
+		|	category(3Cs, progression, wildlife),feature(climbing,swimming, skill system, taming sys),rating(must have, important, nice to have, cut candidate),quality target(zabove competition, 			|	competitive, shippable,), ptiority(1,2,3), MVP(yes,no), milestone(FP, alpha, beta, alpha), estimated cost(x weeks,s days, x hours, x weeks)
+		|
+		|-> sert a prioriser l'importance de la feature dans le jeu
+
+		scope= taille du projet, limite du contenu et qualité du produit final( nombre de niveau, nombre de personnages, taille du world, nombre et durée des cinématiques
+
+			basé sur les boucles/ le flow/ le pacing
+			attention au feature creep 
+
+	format et cycle de design doc
+		1. Pitch( résumé de la feature en quelques mots)
+		2. Concept brief ( premier draft générale du cocpet, décrit la feature dans son ensemble)
+		3. Design Doc ( décrit la feature en détail, éléments technique, besoin en art, audio, tech,...)
+		4. Feature sing-off ( suivi d'implémentation : établit la checklist des comportements en jeu que les équipes Quality assurances peuvent vérifier)
+
+	feature pitch
+		 deux critere absolue: supporter un pillier & combler un besoin gameplay
+
+	concept brief
+Production Part 3
+	
+	Milestone = ensemble des étapes clés et intermediaires du porjet
+
+	process itératif
+		design -> production -> test -> release -> test
+
+	éditeurs & 1st parties
+		editeurs -> recul, marché, 1sst parties
+			inclure dans les process tôt dans la production, s'aligner constamment avec l'éditeur
